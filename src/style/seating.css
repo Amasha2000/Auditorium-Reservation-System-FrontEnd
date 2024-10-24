@@ -1,0 +1,280 @@
+
+/* Navbar Specific Styling */
+.custom-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #7D0A0A;  /* Using the specified color for the navbar */
+}
+
+/* Logo */
+.navbar-logo {
+    width: 40px;  /* Adjust logo size */
+    height: 50px;
+    margin-right: 10px;  /* Add some space between logo and text */
+}
+
+/* Navbar Text */
+.navbar-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navbar Icons (User and Bell) */
+.nav-icon .icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-icon {
+    margin-left: 15px;  /* Space between the icons */
+}
+
+/* Align items center in the navbar */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.ms-2 {
+    margin-left: 0.5rem;  /* Spacing after logo */
+}
+
+.navbar-collapse {
+    justify-content: flex-end;  /* Ensure icons are aligned to the right */
+}
+
+.navbar-toggler {
+    border: none;  /* Remove border for the navbar toggler */
+}
+
+/* Custom Navbar Styling */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Availability Button */
+  .availability button {
+    background-color: #7D0A0A;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .availability button:hover {
+    background-color: #590909;
+  }
+  
+  /* Table and Seating Plan Images */
+  .table-section img, .seating-plan img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  /* Background Image Section */
+.bg-image-section {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* White Box Around Button */
+.availability-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.btn-danger {
+    background-color: #7D0A0A;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #590909;
+}
+
+/* Table Section Styling */
+.table-section img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Security Charges Box */
+.security-charges-box {
+    width: 1024px;        /* Fixed width */
+    max-width: 100%;      /* Make sure it’s responsive */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto 30px auto;  /* Center the box horizontally */
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* Responsive Security Charges Box */
+.security-charges-box p {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* General padding and margin */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+/* Seating Plan Styling */
+.seating-plan img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+  /* Contact Cards */
+  .contact-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .contact-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Content Section */
+  .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contentheader {
+    padding-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  /* Global Styles */
+  body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem;
+  }
+  
+  /* Background Image Section */
+  .bg-image-section {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* White Box Around Button */
+  .availability-box {
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styling */
+  .btn-danger {
+    background-color: #7D0A0A;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #590909;
+  }
+  
+  /* Additional styling for the content section */
+  .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Adjust table and image sections */
+  .table-section img, .seating-plan img, .table-section img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* General margin spacing */
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  
